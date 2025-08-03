@@ -41,12 +41,16 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-gray-300 hover:text-white transition-colors duration-200">
-              Sign In
-            </button>
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-6 py-2.5 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 text-white">
-              Get Started
-            </button>
+            <a href="https://devtask-client.vercel.app/">
+              <button className="text-gray-300 hover:text-white transition-colors duration-200">
+                Sign In
+              </button>
+            </a>
+            <a href="https://devtask-client.vercel.app/signup">
+              <button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-6 py-2.5 rounded-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 text-white">
+                Get Started
+              </button>
+            </a>
           </div>
 
           <button
