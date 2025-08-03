@@ -45,14 +45,18 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-              <button className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 flex items-center text-white">
-                Start Free Trial
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-              </button>
-              <button className="group border border-gray-600 hover:border-gray-500 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-gray-800/50 flex items-center text-white">
-                <Play className="mr-2 w-5 h-5" />
-                View Demo
-              </button>
+              <a href="https://devtask-client.vercel.app/">
+                <button className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 flex items-center text-white">
+                  Start Free Trial
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+                </button>
+              </a>
+              <a href="https://devtask-client.vercel.app/">
+                <button className="group border border-gray-600 hover:border-gray-500 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-gray-800/50 flex items-center text-white">
+                  <Play className="mr-2 w-5 h-5" />
+                  View Demo
+                </button>
+              </a>
             </div>
 
             {/* Trust Indicators */}

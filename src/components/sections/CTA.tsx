@@ -13,10 +13,12 @@ const CTA = () => {
           DevTask.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 flex items-center justify-center text-white">
-            Start Free Trial - No Credit Card Required
-            <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-          </button>
+          <a href="https://devtask-client.vercel.app/">
+            <button className="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 flex items-center justify-center text-white">
+              Start Free Trial - No Credit Card Required
+              <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+            </button>
+          </a>
         </div>
         <p className="text-gray-400 text-sm mt-6">
           14-day free trial • Cancel anytime • No setup fees
